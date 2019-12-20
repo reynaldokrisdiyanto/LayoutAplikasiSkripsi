@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutbackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgHouse"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ilustrasirumah" />
+
+    <TextView
+        android:id="@+id/tvPerumKabMalang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgHouse"
+        android:text="PERUMAHAN KAB.MALANG"
+        android:textAlignment="center"
+        android:background="@drawable/custom_bg"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg1"
+        android:layout_below="@id/tvPerumKabMalang"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+    <FrameLayout
+        android:id="@+id/fl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+<!--        <ImageView-->
+<!--            android:layout_width="5dp"-->
+<!--            android:layout_height="5dp"-->
+<!--            android:src="@drawable/ilustrasirumah"/>-->
+
+        <TextView
+            android:id="@+id/tvPerumahan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perumahan De Royal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_bg"/>
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg"
+        android:layout_below="@id/fl1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+        <TextView
+            android:id="@+id/tvPerumahan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perumahan Main Road"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/fl1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg"
+        android:layout_below="@id/fl2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+        <TextView
+            android:id="@+id/tvPerumahan3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perumahan The Valencia"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/fl2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg"
+        android:layout_below="@id/fl3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+        <TextView
+            android:id="@+id/tvPerumahan4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perumahan Tiara Garden"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/fl3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <CheckBox
+            android:id="@+id/cb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnRangking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_bg2"
+        android:text="Rangking"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/putih" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

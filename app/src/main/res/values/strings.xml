@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AplikasiSkripsi</string>
+
+    <string-array name="list_type_perumahan">
+        <item>Type A</item>
+        <item>30/60</item>
+        <item>62/96</item>
+        <item>100/200</item>
+        <item>85/150</item>
+        <item>42/80</item>
+        <item>36/72</item>
+    </string-array>
+
+</resources>
